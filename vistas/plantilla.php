@@ -22,7 +22,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Theme style -->
     <link rel="stylesheet" href="vistas/assets/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="vistas/assets/dist/css/plantilla.css">
+    <!-- Ionicons -->
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="vistas/assets/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css">
 
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 
     <script src="vistas/assets/plugins/jquery/jquery.min.js"></script>
     <!-- Bootstrap 4 -->
@@ -48,26 +54,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
         <!-- /.content-wrapper -->
         <?php include "modulos/footer.php" ?>
-
-        <!-- Main Footer -->
-        <footer class="main-footer">
-            <!-- To the right -->
-            <div class="float-right d-none d-sm-inline">
-                Anything you want
-            </div>
-            <!-- Default to the left -->
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
-            reserved.
-        </footer>
     </div>
     <!-- ./wrapper -->
 
     <!-- REQUIRED SCRIPTS --> 
+    <!-- SweetAlert2 -->
+    <script src="vistas/assets/plugins/sweetalert2/sweetalert2.min.js"></script>
+
+    <!-- JS Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
         <script>
           function CargarContenido(pagina_php,contenedor){
             $ ("." + contenedor).load(pagina_php);
           }
 </script>
-</body>
 
+</body>
 </html>
