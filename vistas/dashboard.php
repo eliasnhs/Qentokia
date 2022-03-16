@@ -63,7 +63,7 @@
                      <p>Total Ventas</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-cash"></i>
+                    <i class="ion ion-ios-cart"></i>
                 </div>
                 <a style="cursor:pointer;" class="small-box-footer">Mas Info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -96,7 +96,7 @@
                      <p>Productos poco stock</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-clipboard"></i>
+                    <i class="ion ion-android-remove-circle"></i>
                 </div>
                 <a style="cursor:pointer;" class="small-box-footer">Mas Info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
@@ -113,7 +113,7 @@
                      <p>Ventas del día</p>
                 </div>
                 <div class="icon">
-                    <i class="ion ion-cash"></i>
+                    <i class="ion ion-android-calendar"></i>
                 </div>
                 <a style="cursor:pointer;" class="small-box-footer">Mas Info <i class="fas fa-arrow-circle-right"></i></a>
                 </div>
