@@ -8,4 +8,30 @@ class DashboardControlador{
 
         return $datos;
     }
+    static public function ctrGetVentasMesActual(){
+         
+        $ventasMesActual = DashboardModelo::mdlGetVentasMesActual();
+
+        return $ventasMesActual;
+    
+
+    }
+
+
+
+    static public function ctrProductosMasVendidos(){
+    
+        $productosMasVendidos = DashboardModelo::mdlProductosMasVendidos();
+    
+        return $productosMasVendidos;
+    }
+    static public function ctrProductosPocoStock(){
+    
+        $productosPocoStock = DashboardModelo::mdlProductosPocoStock();
+    
+        return $productosPocoStock;
+    }
+
+
+
 }
