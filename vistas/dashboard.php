@@ -313,7 +313,7 @@ $(document).ready(function() {
 
             // console.log(total_ventas_mes);
 
-            $("#title-header").html('Ventas del Mes: S./ ' + total_ventas_mes.toString().replace(
+            $("#title-header").html('Ventas del Mes: $/ ' + total_ventas_mes.toString().replace(
                 /\d(?=(\d{3})+\.)/g, "$&,"));
 
             var barChartCanvas = $("#barChart").get(0).getContext('2d');
@@ -321,11 +321,11 @@ $(document).ready(function() {
             var areaChartData = {
                 labels: fecha_venta,
                 datasets: [{
-                    label: 'Ventas del Anterior - Octubre',
+                    label: 'Ventas del Anterior - Febrero',
                     backgroundColor: 'rgb(255, 140, 0,0.9)',
                     data: total_venta_ant
                 }, {
-                    label: 'Ventas del Mes - Noviembre',
+                    label: 'Ventas del Mes - Marzo',
                     backgroundColor: 'rgba(60,141,188,0.9)',
                     data: total_venta
                 }]
@@ -409,7 +409,7 @@ $(document).ready(function() {
                     '<td>' + respuesta[i]["codigo_producto"] + '</td>' + //talle//
                     '<td>' + respuesta[i]["descripcion_producto"] + '</td>' +
                     '<td>' + respuesta[i]["cantidad"] + '</td>' +
-                    '<td> S./ ' + respuesta[i]["total_venta"] + '</td>' +
+                    '<td> $ ' + respuesta[i]["total_venta"] + '</td>' +
                     '</tr>'
                 $("#tbl_productos_mas_vendidos tbody").append(filas);
             }
